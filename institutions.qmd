@@ -1,0 +1,11 @@
+---
+title: "Participating universities"
+---
+
+<br><br>
+<center>
+  ![](images/slu_logo_cmyk.jpg){#id .class width=25%}
+<br><br>
+[Swedish University of Agricultural Sciences](https://www.slu.se)
+</center>
+

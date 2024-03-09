@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "NADAS"
+  navbar:
+    logo: "images/Logo_NADAS.png"
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/NADAS-network
+          - text: Report a Bug
+            url:  https://bugs.com
+    left:
+      - href: index.qmd
+        text: Home
+      - text: "About us"
+        menu:
+        - href: funding.qmd
+          text: Funding body
+        - href: institutions.qmd
+          text: Participating institutions
+        - href: team.qmd
+          text: Team members
+      - href: news.qmd
+        text: News
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

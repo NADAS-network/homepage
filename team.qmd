@@ -1,0 +1,12 @@
+---
+title: "This is us:"
+---
+
+
+<br><br>
+<center>
+  ![](images/Amrei_Binzer-Panchal.jpeg){#id .class width=25%}
+</center>
+<br><br>
+
+[Amrei Binzer-Panchal (SLU, Sweden)](Amrei.html)

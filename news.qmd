@@ -1,0 +1,10 @@
+---
+title: "News and events"
+---
+
+We are currently planning our kick-off meeting in week 16 of 2024. 
+
+Please check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists.
+
+<center>
+![](images/dronare.jpg){#id .class width=60%}

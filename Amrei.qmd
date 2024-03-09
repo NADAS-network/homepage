@@ -1,0 +1,17 @@
+---
+title: "Amrei Binzer-Panchal"
+about: 
+  template: jolla
+  image: images/Amrei_Binzer-Panchal.jpeg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0002-0472-0609"
+    - icon: github
+      text: Github
+      href: https://github.com/amrei-bp
+---
+ 
+Biologist, bioinformatician and director of [SLU's bioinformatics infrastructure](www.slubi.se). 
+
+I am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people.

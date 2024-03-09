@@ -1,0 +1,13 @@
+---
+title: "The Nordic Joint Committee for Agricultural and Food Research"
+---
+
+<br><br><br>
+<center>
+  ![](images/NKJ-logga-m-text.jpg){#id .class width=25%}
+
+
+
+<br><br><br>
+[Please find more information here.](https://nordicagriresearch.org/)
+</center>
