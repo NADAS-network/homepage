@@ -11,9 +11,9 @@ website:
       - icon: github
         menu:
           - text: Source Code
-            url:  https://github.com/NADAS-network
+            url:  https://github.com/NADAS-network/homepage
           - text: Report a Bug
-            url:  https://bugs.com
+            url:  https://github.com/NADAS-network/homepage/issues
     left:
       - href: index.qmd
         text: Home
