@@ -7,6 +7,13 @@
     "text": "Please find more information here."
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
     "objectID": "institutions.html",
     "href": "institutions.html",
     "title": "Participating universities",
@@ -21,13 +28,6 @@
     "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people."
   },
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "This is us:",
-    "section": "",
-    "text": "Amrei Binzer-Panchal (SLU, Sweden)"
-  },
-  {
     "objectID": "news.html",
     "href": "news.html",
     "title": "News and events",
@@ -35,17 +35,17 @@
     "text": "We are currently planning our kick-off meeting in week 16 of 2024.\nPlease check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists."
   },
   {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "This is us:",
+    "section": "",
+    "text": "Amrei Binzer-Panchal (SLU, Sweden)"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to NADAS",
     "section": "",
     "text": "Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nThis network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region. We aim at: (i) exchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region, (ii) promoting sharing of data and analysis tools within the region, and (iii) providing necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.\nThis network is funded by the The Nordic Joint Committee for Agricultural and Food Research."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   }
 ]
