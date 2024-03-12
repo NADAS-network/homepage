@@ -1,5 +1,12 @@
 ---
-title: "News and events"
+title: "Kick-off meeting"
+description: "Post description"
+author: "Amrei"
+date: "03-12-2022"
+categories:
+  - news
+  - meeting
+image: dronare.jpg
 ---
 
 We are currently planning our kick-off meeting in week 16 of 2024. 
@@ -7,4 +14,4 @@ We are currently planning our kick-off meeting in week 16 of 2024.
 Please check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists.
 
 <center>
-![](images/dronare.jpg){#id .class width=60%}
+![](dronare.jpg){#id .class width=60%}

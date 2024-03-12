@@ -14,7 +14,7 @@ website:
             url:  https://github.com/NADAS-network/homepage
           - text: Report a Bug
             url:  https://github.com/NADAS-network/homepage/issues
-    left:
+    right:
       - href: index.qmd
         text: Home
       - text: "About us"
@@ -25,7 +25,7 @@ website:
           text: Participating institutions
         - href: team.qmd
           text: Team members
-      - href: news.qmd
+      - href: posts.qmd
         text: News
 
 format:

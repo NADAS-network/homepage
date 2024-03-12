@@ -1,0 +1,13 @@
+---
+title: "Funded!"
+description: "It is official: our network has been funded."
+author: "Amrei"
+date: "02-29-2024"
+categories:
+  - news
+image: Logo_NADAS.png
+---
+
+A big thank-you to our funding body, the [The Nordic Joint Committee for Agricultural and Food Research](https://nordicagriresearch.org/)!
+
+Make sure you have a look at their other fantastic projects and initiatives, and of course stay tuned for more information on our network. 
