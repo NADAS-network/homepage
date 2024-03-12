@@ -1,17 +1,17 @@
 [
   {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "This is us:",
+    "section": "",
+    "text": "Amrei Binzer-Panchal (SLU, Sweden)"
+  },
+  {
     "objectID": "funding.html",
     "href": "funding.html",
     "title": "The Nordic Joint Committee for Agricultural and Food Research",
     "section": "",
     "text": "Please find more information here."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
   },
   {
     "objectID": "institutions.html",
@@ -21,25 +21,32 @@
     "text": "Center for Quantitative Genetics and Genomics, Aarhus University\n\n\n\n  Natural Resources Institute Finland\n\n\n\n  Swedish University of Agricultural Sciences\n\n\n\n  Norwegian University of Life Sciences\n\n\n\n  Agricultural University of Iceland"
   },
   {
+    "objectID": "posts/20240312_kick-off_meeting/index.html",
+    "href": "posts/20240312_kick-off_meeting/index.html",
+    "title": "Kick-off meeting",
+    "section": "",
+    "text": "We are currently planning our kick-off meeting in week 16 of 2024.\nPlease check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists."
+  },
+  {
+    "objectID": "posts/20240229_funded/index.html",
+    "href": "posts/20240229_funded/index.html",
+    "title": "Funded!",
+    "section": "",
+    "text": "A big thank-you to our funding body, the The Nordic Joint Committee for Agricultural and Food Research!\nMake sure you have a look at their other fantastic projects and initiatives, and of course stay tuned for more information on our network."
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "News and events",
+    "section": "",
+    "text": "Kick-off meeting\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\nPost description\n\n\n\n\n\nMar 12, 2022\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nFunded!\n\n\n\n\n\n\nnews\n\n\n\nIt is official: our network has been funded.\n\n\n\n\n\nFeb 29, 2024\n\n\nAmrei\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "Amrei.html",
     "href": "Amrei.html",
     "title": "Amrei Binzer-Panchal",
     "section": "",
     "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a trained biologist and theoretical ecologist. My bioinformatics expertise is in analysing RNAseq, methylation data, microarrays, and 10x single cell RNAseq data. I enjoy training and connecting people."
-  },
-  {
-    "objectID": "news.html",
-    "href": "news.html",
-    "title": "News and events",
-    "section": "",
-    "text": "We are currently planning our kick-off meeting in week 16 of 2024.\nPlease check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists."
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "This is us:",
-    "section": "",
-    "text": "Amrei Binzer-Panchal (SLU, Sweden)"
   },
   {
     "objectID": "index.html",
