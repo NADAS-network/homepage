@@ -1,41 +1,19 @@
 ---
 title: "Participating universities"
 ---
+<br><br>
+
+::: {layout-ncol=2}
+<br>
+[![](images/island2.png){.class width=80%}](https://www.lbhi.is/en)
+
+[![](images/slu_logo_cmyk.jpg)](https://www.slu.se)
+
+[![](images/nmbu_square.png)](https://www.nmbu.no/en)
+
+[![](images/Luke_finland.png)](https://www.luke.fi/en)
 
 <br><br>
-<center>
-  ![](images/aarhus_uk_var2_blue.png){#id .class width=35%}
-<br><br>
-[Center for Quantitative Genetics and Genomics, Aarhus
-University](https://qgg.au.dk/en/1)
-</center>
+[![](images/aarhus_uk_var2_blue.png)](https://qgg.au.dk/en/1)
 
-
-<br><br>
-<center>
-  ![](images/Luke_finland.png){#id .class width=25%}
-<br><br>
-[Natural Resources Institute Finland ](https://www.luke.fi/en)
-</center>
-
-
-<br><br>
-<center>
-  ![](images/slu_logo_cmyk.jpg){#id .class width=25%}
-<br><br>
-[Swedish University of Agricultural Sciences](https://www.slu.se)
-</center>
-
-<br><br>
-<center>
-  ![](images/nmbu_square.png){#id .class width=25%}
-<br><br>
-[Norwegian University of Life Sciences](https://www.nmbu.no/en)
-</center>
-
-<br><br>
-<center>
-  ![](images/agricultural-university-of-iceland-icelandic.png){#id .class width=25%}
-<br><br>
-[Agricultural University of Iceland](https://www.lbhi.is/en)
-</center>
+:::
