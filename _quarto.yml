@@ -1,6 +1,5 @@
 project:
   type: website
-  theme: flatly
 
 website:
   title: "NADAS"
