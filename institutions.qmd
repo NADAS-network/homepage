@@ -5,15 +5,15 @@ title: "Participating universities"
 
 ::: {layout-ncol=2}
 <br>
-[![](images/island2.png){.class width=80%}](https://www.lbhi.is/en)
+[![](images/island2.png){.class width=75% fig-align="center"}](https://www.lbhi.is/en)
 
-[![](images/slu_logo_cmyk.jpg)](https://www.slu.se)
+[![](images/slu_logo_cmyk.jpg){fig-align="center"}](https://www.slu.se)
 
-[![](images/nmbu_square.png)](https://www.nmbu.no/en)
+[![](images/nmbu_square.png){fig-align="center"}](https://www.nmbu.no/en)
 
-[![](images/Luke_finland.png)](https://www.luke.fi/en)
+[![](images/Luke_finland.png){fig-align="center"}](https://www.luke.fi/en)
 
 <br><br>
-[![](images/aarhus_uk_var2_blue.png)](https://qgg.au.dk/en/1)
+[![](images/aarhus_uk_var2_blue.png){fig-align="center"}](https://qgg.au.dk/en/1)
 
 :::

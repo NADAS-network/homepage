@@ -1,6 +1,6 @@
 ---
 title: "Kick-off meeting"
-description: "Post description"
+description: "Online 22nd of March, 12:30 - 16:30"
 author: "Amrei"
 date: "03-12-2022"
 categories:
@@ -9,7 +9,7 @@ categories:
 image: dronare.jpg
 ---
 
-We are currently planning our kick-off meeting in week 16 of 2024. 
+We will be holding our kick-off meeting on the **22nd of April 2024** online between **12:30 and 16:30**. We are currently looking for presenters, as well as people and institutes who would like to join our network!
 
 Please check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists.
 
