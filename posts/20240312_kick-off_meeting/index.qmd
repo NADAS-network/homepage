@@ -1,6 +1,6 @@
 ---
 title: "Kick-off meeting"
-description: "Online 22nd of March, 12:30 - 16:30"
+description: "22nd of March, 12:30 - 16:30, online"
 author: "Amrei"
 date: "03-12-2022"
 categories:
