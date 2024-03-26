@@ -1,0 +1,14 @@
+---
+title: "Lars Rönnegård"
+about: 
+  template: jolla
+  image: images/lr.jpg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0002-1057-5401"
+---
+ 
+Statistician and quantitative geneticist.
+
+My research may be described as a combination of data analytics, genetics and ecology. I find the supervision of young researchers truly rewarding and enjoyable. In my spare time I love skiing and walking in the forest.
