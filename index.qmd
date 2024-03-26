@@ -10,13 +10,23 @@ description: |
 </center>
 <br><br>
 
-Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.
+Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. 
+
+A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.
 
 
-This network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region. We aim at: (i) exchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region, (ii) promoting sharing of data and analysis tools within the region, and (iii) providing necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.
+We aim at: 
+
+(i) exchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region, 
+
+(ii) promoting sharing of data and analysis tools within the region, and 
+
+(iii) providing necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.
+
+Our network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region. 
 
 
-This network is funded by the [The Nordic Joint Committee for Agricultural and Food Research](https://nordicagriresearch.org/welcome-to-nkj/).
+We are funded by the [The Nordic Joint Committee for Agricultural and Food Research](https://nordicagriresearch.org/welcome-to-nkj/).
 
 <center>
   ![](images/NKJ-logga-m-text.jpg){#id .class width=25%}
