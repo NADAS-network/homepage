@@ -2,6 +2,16 @@
 title: "Welcome to NADAS"
 description: |
   The Nordic Network of Agricultural Data Scientists
+listing:
+  contents: posts/future_events
+  id: future_events
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
 <br><br>
@@ -10,6 +20,7 @@ description: |
 </center>
 <br><br>
 
+# Our aim
 Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed. 
 
 A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.
@@ -26,7 +37,17 @@ We aim at:
 Our network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region. 
 
 
+# Our funding
 We are funded by the [The Nordic Joint Committee for Agricultural and Food Research](https://nordicagriresearch.org/welcome-to-nkj/).
 
 <center>
   ![](images/NKJ-logga-m-text.jpg){#id .class width=25%}
+
+
+<br><br>
+
+# Current and future news and events 
+<br>
+
+::: {#future_events}
+:::
