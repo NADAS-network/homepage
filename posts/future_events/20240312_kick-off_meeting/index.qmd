@@ -9,9 +9,40 @@ categories:
 image: dronare.jpg
 ---
 
-We will be holding our kick-off meeting on the **22nd of April 2024** online between **12:30 and 16:30**. We are currently looking for presenters, as well as people and institutes who would like to join our network!
+We will be holding our kick-off meeting on the **22nd of April 2024** online between **12:30 and 16:30**. 
 
-Please check-in again to get information on exciting topics such as high-throughput phenotyping and “omics” technologies on farms, computational methods and tools, as well as training of up-and-coming agricultural data scientists.
+Please see below for our program, and get in touch with us if you want to join!
+
+
+## Program
+
+| Time | Title |
+|--------|-------------------------------------------------------------|
+| 12:30  | General introduction to the network (Emre Karaman)   |
+|  12:45 | **High-throughput phenotyping and “omics” technologies (Chair: Lars Rönnegård)** |
+ | |Viktor Milkevych (AU), Automated processing of sniffers-based gas emission data from cattle: noise filtering, system's faults and data reliability detection  |
+|  | Marta Malinowska (AU), Root traits as a driver in plant breeding  |
+|   |  Jan Ingemar Ohlsson (SLU), GigaCow: Automated collection of farm data    |
+|  13:30 | break|
+| 13:45 | **Big-data: Computational methods and tools (Chair: Emre Karaman)** |
+|  |  Kisun Pokharel  (LUKE), Genome assembly of Finnish native livestock  |
+|  |  Attiq Rehman (LUKE), GWAS in strawberry  |
+|  |  Rasmus Bak Stephansen (AU), Using data from 3D cameras for predicting feed intake   |
+|   |  Napolen Vargas (LUKE), Genetic architecture and genomic prediction in Timothy (Phleum pratense L.)   |
+|   |  Emre Karaman (AU), Genomic prediction integrating multiple “omics” data with NextGP.jl statistical analysis package  |
+|   |  Melak Weldenegodguad (LUKE), Analysing whole genome sequence data   |
+|   |  Arash Chegini (LUKE), Application of genomic and phenotypic data to improve sustainability and health in dairy cattle   |
+|  15:30 |  break  |
+|  15:40 |  **Genomic prediction tournament (Chair: Xijiang Yu)**  |
+|   |  Xijiang Yu (NMBU), Simulation of populations for genetic progress, management and deep learning   |
+|   |  Jón H. Eiríksson (AUI), Development of software for assigning breed origin of alleles in genotypes of crossbred animals   |
+|   |  **Dissemination, communication and stakeholders’ engagement (Chair: Lars Rönnegård)**  |
+|   |  Lars Rönnegård & Amrei Binzer-Panchal (SLU) Planned course on Reproducible Research in R  |
+| 16:25  |   Concluding remarks  |
+
+:  {.striped .hover}
+
+We are always looking for people and institutes who would like to join our network!
 
 <br>
 <center>
