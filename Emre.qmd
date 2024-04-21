@@ -1,0 +1,16 @@
+---
+title: "Amrei Binzer-Panchal"
+about: 
+  template: jolla
+  image: images/emk.png
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0003-1010-683X"
+    - icon: github
+      text: Github
+      href: https://github.com/datasciencetoolkit
+---
+ 
+Statistical geneticist at the [Center for Quantitative Genetics and Genomics](https://qgg.au.dk/en/about-qgg/contact/show/person/emre@qgg.au.dk).
+Developer of [NextGP.jl](https://datasciencetoolkit.github.io/NextGP.jl/stable/home/) statistical analysis package for genomic prediction.
