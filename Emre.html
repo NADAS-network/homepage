@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The Nordic Network of Agricultural Data Scientists">
 
-<title>NADAS - Welcome to NADAS</title>
+<title>NADAS - Amrei Binzer-Panchal</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,12 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -69,73 +65,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-future_events .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-future_events'] = new List('listing-future_events', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -153,7 +91,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -203,144 +141,38 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Welcome to NADAS</h1>
-                  <div>
-        <div class="description">
-          <p>The Nordic Network of Agricultural Data Scientists</p>
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#our-aim" id="toc-our-aim" class="nav-link active" data-scroll-target="#our-aim">Our aim</a></li>
-  <li><a href="#our-funding" id="toc-our-funding" class="nav-link" data-scroll-target="#our-funding">Our funding</a></li>
-  <li><a href="#current-and-future-news-and-events" id="toc-current-and-future-news-and-events" class="nav-link" data-scroll-target="#current-and-future-news-and-events">Current and future news and events</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-jolla content">
+  <img src="images/emk.png" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Amrei Binzer-Panchal</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header><main class="content" id="quarto-document-content">
+<p>Statistical geneticist at the <a href="https://qgg.au.dk/en/about-qgg/contact/show/person/emre@qgg.au.dk">Center for Quantitative Genetics and Genomics</a>. Developer of <a href="https://datasciencetoolkit.github.io/NextGP.jl/stable/home/">NextGP.jl</a> statistical analysis package for genomic prediction.</p>
 
 
-
-
-
-<br><br>
-<center>
-<img src="images/Logo_NADAS.png" id="id" class="class img-fluid" style="width:25.0%">
-</center>
-<p><br><br></p>
-<section id="our-aim" class="level1">
-<h1>Our aim</h1>
-<p>Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed.</p>
-<p>A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.</p>
-<p>We aim at:</p>
-<ol type="i">
-<li><p>exchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region,</p></li>
-<li><p>promoting sharing of data and analysis tools within the region, and</p></li>
-<li><p>providing necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.</p></li>
-</ol>
-<p>Our network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region.</p>
-</section>
-<section id="our-funding" class="level1">
-<h1>Our funding</h1>
-<p>We are funded by the <a href="https://nordicagriresearch.org/welcome-to-nkj/">The Nordic Joint Committee for Agricultural and Food Research</a>.</p>
-<center>
-<p><img src="images/NKJ-logga-m-text.jpg" id="id" class="class img-fluid" style="width:25.0%"></p>
-<p><br><br></p>
-</center></section>
-<section id="current-and-future-news-and-events" class="level1">
-<h1>Current and future news and events</h1>
-<p><br></p>
-<div id="listing-future_events" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="course,reproducibility" data-listing-date-sort="1712102400000" data-listing-file-modified-sort="1713694185525" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
-<div class="thumbnail">
-<p><a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external"></a></p><a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<p><img src="./posts/future_events/20241021_course_ReproducibleResInR/Rlogo.svg" class="thumbnail-image"></p>
-</a><p><a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title" data-anchor-id="current-and-future-news-and-events">
-<a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">Course: Reproducible Research in R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">Oct 21st to Oct 25th, 2024, online via Zoom</a>
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://orcid.org/0000-0003-1010-683X" class="about-link" rel="" target="">
+    <i class="bi bi-ORCID"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
+  <a href="https://github.com/datasciencetoolkit" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
 </div>
 </div>
-<div class="metadata">
-<a href="./posts/future_events/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<div class="listing-date">
-Apr 3, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news,meeting" data-listing-date-sort="1711065600000" data-listing-file-modified-sort="1713694185525" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
-<div class="thumbnail">
-<p><a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external"></a></p><a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external">
-<p><img src="./posts/future_events/20240312_kick-off_meeting/dronare.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external">Kick-off meeting</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external"></a>
-</div>
-<div class="listing-description">
-<a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external">22nd of April, 12:30 - 16:30, online</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20240312_kick-off_meeting/index.html" class="no-external">
-<div class="listing-date">
-Mar 22, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
-</section>
-
-</main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -361,13 +193,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
