@@ -1,8 +1,8 @@
 ---
-title: "Amrei Binzer-Panchal"
+title: "Emre Karaman"
 about: 
   template: jolla
-  image: images/emk.png
+  image: images/Emre_Karaman.jpg
   links:
     - icon: ORCID
       text: ORCID
