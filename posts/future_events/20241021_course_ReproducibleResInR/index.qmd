@@ -2,7 +2,7 @@
 title: "Course: Reproducibility in Research with a focus on data analysis using R"
 description: "Oct 21st to Oct 25th, 2024, online via Zoom"
 author: "Amrei"
-date: "04-03-2024"
+date: "05-21-2024"
 categories:
   - course
   - reproducibility

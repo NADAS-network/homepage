@@ -26,7 +26,7 @@ website:
         - href: team.qmd
           text: Team members
       - href: posts.qmd
-        text: News
+        text: Archive
 
 format:
   html:
