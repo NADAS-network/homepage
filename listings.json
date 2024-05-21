@@ -2,15 +2,14 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/future_events/20241021_course_ReproducibleResInR/index.html",
-      "/posts/future_events/20240312_kick-off_meeting/index.html"
+      "/posts/future_events/20241021_course_ReproducibleResInR/index.html"
     ]
   },
   {
     "listing": "/posts.html",
     "items": [
       "/posts/future_events/20241021_course_ReproducibleResInR/index.html",
-      "/posts/future_events/20240312_kick-off_meeting/index.html",
+      "/posts/20240312_kick-off_meeting/index.html",
       "/posts/20240229_funded/index.html"
     ]
   }
