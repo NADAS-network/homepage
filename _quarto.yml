@@ -6,8 +6,6 @@ website:
   navbar:
     logo: "images/Logo_NADAS.png"
     tools:
-      - icon: twitter
-        href: https://twitter.com
       - icon: github
         menu:
           - text: Source Code
