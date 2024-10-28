@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://NADAS-network.github.io/homepage/Amrei.html</loc>
-    <lastmod>2024-05-23T13:05:42.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/institutions.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
+    <loc>https://NADAS-network.github.io/homepage/funding.html</loc>
+    <lastmod>2024-10-28T21:02:05.490Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20240229_funded/index.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
+    <lastmod>2024-10-28T21:02:05.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/20241021_course_ReproducibleResInR/index.html</loc>
+    <lastmod>2024-10-28T21:02:05.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/Amrei.html</loc>
+    <lastmod>2024-10-28T21:02:05.486Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/Lars.html</loc>
-    <lastmod>2024-05-23T13:05:42.890Z</lastmod>
+    <lastmod>2024-10-28T21:02:05.490Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/Emre.html</loc>
-    <lastmod>2024-05-23T13:05:42.890Z</lastmod>
+    <lastmod>2024-10-28T21:02:05.486Z</lastmod>
   </url>
   <url>
-    <loc>https://NADAS-network.github.io/homepage/funding.html</loc>
-    <lastmod>2024-05-23T13:05:42.890Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/team.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/index.html</loc>
-    <lastmod>2024-05-23T13:05:42.914Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20241021_course_ReproducibleResInR/index.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/20240312_kick-off_meeting/index.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
+    <loc>https://NADAS-network.github.io/homepage/institutions.html</loc>
+    <lastmod>2024-10-28T21:02:05.514Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts.html</loc>
-    <lastmod>2024-05-23T13:05:42.918Z</lastmod>
+    <lastmod>2024-10-28T21:02:05.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/index.html</loc>
+    <lastmod>2024-10-28T21:02:05.514Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/20240312_kick-off_meeting/index.html</loc>
+    <lastmod>2024-10-28T21:02:05.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20241114_meeting/index.html</loc>
+    <lastmod>2024-10-28T21:02:05.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/team.html</loc>
+    <lastmod>2024-10-28T21:02:05.518Z</lastmod>
   </url>
 </urlset>

@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "Amrei.html",
-    "href": "Amrei.html",
-    "title": "Amrei Binzer-Panchal",
+    "objectID": "funding.html",
+    "href": "funding.html",
+    "title": "The Nordic Joint Committee for Agricultural and Food Research",
     "section": "",
-    "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a biologist turned bioinformatician, who likes programming, puzzle-solving, and teaching. I enjoy fostering connections between people and learning new things. Outside of bioinformatics, I relax with strategic and abstract board games."
+    "text": "Please find more information here."
   },
   {
     "objectID": "posts/20240229_funded/index.html",
@@ -12,6 +12,20 @@
     "title": "Funded!",
     "section": "",
     "text": "A big thank-you to our funding body, the The Nordic Joint Committee for Agricultural and Food Research!\nMake sure you have a look at their other fantastic projects and initiatives, and of course stay tuned for more information on our network."
+  },
+  {
+    "objectID": "posts/20241021_course_ReproducibleResInR/index.html",
+    "href": "posts/20241021_course_ReproducibleResInR/index.html",
+    "title": "Course: Reproducibility in Research with a focus on data analysis using R",
+    "section": "",
+    "text": "We had a successful instance of the Reproducibility in Research course. Thank-you to all involved teachers, and of course the students!\nAbout the course: The course defines reproducibility and explains why it is important in scientific practice, publication, and funding. It introduces basic concepts and tools for ensuring reproducibility in data analysis using R, while utilizing public databases for data access and storage. Through presentations, exercises, and discussions, participants learn how to increase the reproducibility of their research in the future.\nFind more information here.\nIf you have any questions, please contact Lars Rönnegård."
+  },
+  {
+    "objectID": "Amrei.html",
+    "href": "Amrei.html",
+    "title": "Amrei Binzer-Panchal",
+    "section": "",
+    "text": "Biologist, bioinformatician and director of SLU’s bioinformatics infrastructure.\nI am a biologist turned bioinformatician, who likes programming, puzzle-solving, and teaching. I enjoy fostering connections between people and learning new things. Outside of bioinformatics, I relax with strategic and abstract board games."
   },
   {
     "objectID": "Lars.html",
@@ -28,32 +42,18 @@
     "text": "Statistical geneticist at the Center for Quantitative Genetics and Genomics. Developer of NextGP.jl statistical analysis package for genomic prediction."
   },
   {
-    "objectID": "funding.html",
-    "href": "funding.html",
-    "title": "The Nordic Joint Committee for Agricultural and Food Research",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "News and events",
     "section": "",
-    "text": "Please find more information here."
-  },
-  {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Our team",
-    "section": "",
-    "text": "Name\nInstitute\n\n\n\n\nEmre Karaman\nAarhus University, Denmark\n\n\nErla Sturludóttir\nAgricultural University of Iceland\n\n\nJón Hjalti Eiríksson\nAgricultural University of Iceland\n\n\nXijiang Yu\nNorwegian University of Life Sciences\n\n\nOda Braar Wæge\nNorwegian University of Life Sciences\n\n\nAmrei Binzer-Panchal\nSwedish University of Agricultural Sciences\n\n\nLars Rönnegård\nSwedish University of Agricultural Sciences\n\n\nIsmo Strandén\nNatural Resources Institute, Finland"
+    "text": "Course: Reproducibility in Research with a focus on data analysis using R\n\n\n\n\n\n\ncourse\n\n\nreproducibility\n\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\n\n\nOct 28, 2024\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nMeeting: Physical meeting in Copenhagen\n\n\n\n\n\n\nmeeting\n\n\n\nNov 14th & 15th 2024\n\n\n\n\n\nOct 28, 2024\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nKick-off meeting\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\n22nd of April, 12:30 - 16:30, online\n\n\n\n\n\nMar 22, 2024\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nFunded!\n\n\n\n\n\n\nnews\n\n\n\nIt is official: our network has been funded.\n\n\n\n\n\nFeb 29, 2024\n\n\nAmrei\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome to NADAS",
     "section": "",
-    "text": "Our aim\nTechnological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed.\nA number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nWe aim at:\n\nexchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region,\npromoting sharing of data and analysis tools within the region, and\nproviding necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.\n\nOur network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region.\n\n\nOur funding\nWe are funded by the The Nordic Joint Committee for Agricultural and Food Research.\n\n\n\n\n\nCurrent and future news and events\n\n\n\n\n\n\n\n\n\n\n\nCourse: Reproducibility in Research with a focus on data analysis using R\n\n\n\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\n\n\nMay 21, 2024\n\n\nAmrei\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/future_events/20241021_course_ReproducibleResInR/index.html",
-    "href": "posts/future_events/20241021_course_ReproducibleResInR/index.html",
-    "title": "Course: Reproducibility in Research with a focus on data analysis using R",
-    "section": "",
-    "text": "The course will define reproducibility and explain why it is important in scientific practice, publication, and funding. It will introduce basic concepts and tools for ensuring reproducibility in data analysis using R while using public databases for data access and storage. Through presentations, exercises, and discussions participants will learn to increase the reproducibility of their research in the future.\nFind more information here.\nAnd sign up here until September 23rd.\nIf you have any questions, please contact Lars Rönnegård."
+    "text": "Our aim\nTechnological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed.\nA number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.\nWe aim at:\n\nexchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region,\npromoting sharing of data and analysis tools within the region, and\nproviding necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.\n\nOur network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region.\n\n\nOur funding\nWe are funded by the The Nordic Joint Committee for Agricultural and Food Research.\n\n\n\n\n\nCurrent and future news and events\n\n\n\n\n\n\n\n\n\n\n\nMeeting: Physical meeting in Copenhagen\n\n\n\n\n\nNov 14th & 15th 2024\n\n\n\n\n\nOct 28, 2024\n\n\nAmrei\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/20240312_kick-off_meeting/index.html",
@@ -70,10 +70,17 @@
     "text": "Program\n\n\n\n\n\n\n\nTime\nTitle\n\n\n\n\n12:30\nGeneral introduction to the network (Emre Karaman)\n\n\n12:45\nHigh-throughput phenotyping and “omics” technologies (Chair: Lars Rönnegård)\n\n\n\nViktor Milkevych (AU), Automated processing of sniffers-based gas emission data from cattle: noise filtering, system’s faults and data reliability detection\n\n\n\nMarta Malinowska (AU), Root traits as a driver in plant breeding\n\n\n\nJan Ingemar Ohlsson (SLU), GigaCow: Automated collection of farm data\n\n\n13:30\nbreak\n\n\n13:45\nBig-data: Computational methods and tools (Chair: Emre Karaman)\n\n\n\nKisun Pokharel (LUKE), Genome assembly of Finnish native livestock\n\n\n\nAttiq Rehman (LUKE), GWAS in strawberry\n\n\n\nRasmus Bak Stephansen (AU), Using data from 3D cameras for predicting feed intake\n\n\n\nNapolen Vargas (LUKE), Genetic architecture and genomic prediction in Timothy (Phleum pratense L.)\n\n\n\nEmre Karaman (AU), Genomic prediction integrating multiple “omics” data with NextGP.jl statistical analysis package\n\n\n\nMelak Weldenegodguad (LUKE), Analysing whole genome sequence data\n\n\n\nArash Chegini (LUKE), Application of genomic and phenotypic data to improve sustainability and health in dairy cattle\n\n\n15:30\nbreak\n\n\n15:40\nGenomic prediction tournament (Chair: Xijiang Yu)\n\n\n\nXijiang Yu (NMBU), Simulation of populations for genetic progress, management and deep learning\n\n\n\nJón H. Eiríksson (AUI), Development of software for assigning breed origin of alleles in genotypes of crossbred animals\n\n\n\nDissemination, communication and stakeholders’ engagement (Chair: Lars Rönnegård)\n\n\n\nLars Rönnegård & Amrei Binzer-Panchal (SLU) Planned course on Reproducible Research in R\n\n\n16:25\nConcluding remarks\n\n\n\nWe are always looking for people and institutes who would like to join our network!"
   },
   {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "News and events",
+    "objectID": "posts/future_events/20241114_meeting/index.html",
+    "href": "posts/future_events/20241114_meeting/index.html",
+    "title": "Meeting: Physical meeting in Copenhagen",
     "section": "",
-    "text": "Course: Reproducibility in Research with a focus on data analysis using R\n\n\n\n\n\n\ncourse\n\n\nreproducibility\n\n\n\nOct 21st to Oct 25th, 2024, online via Zoom\n\n\n\n\n\nMay 21, 2024\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nKick-off meeting\n\n\n\n\n\n\nnews\n\n\nmeeting\n\n\n\n22nd of April, 12:30 - 16:30, online\n\n\n\n\n\nMar 22, 2024\n\n\nAmrei\n\n\n\n\n\n\n\n\n\n\n\n\nFunded!\n\n\n\n\n\n\nnews\n\n\n\nIt is official: our network has been funded.\n\n\n\n\n\nFeb 29, 2024\n\n\nAmrei\n\n\n\n\n\n\nNo matching items"
+    "text": "We will have a physical meeting in Kopenhagen to discuss collaboration possibilities, and to plan future courses for agricultural scientists.\nContact us if you are interested in joining!\n\n\n\n(Picture: Dietmar Rabich / Wikimedia Commons / “Kopenhagen (DK), Nyhavn – 2017 – 1704” / CC BY-SA 4.0)"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Our team",
+    "section": "",
+    "text": "Name\nInstitute\n\n\n\n\nEmre Karaman\nAarhus University, Denmark\n\n\nErla Sturludóttir\nAgricultural University of Iceland\n\n\nJón Hjalti Eiríksson\nAgricultural University of Iceland\n\n\nXijiang Yu\nNorwegian University of Life Sciences\n\n\nOda Braar Wæge\nNorwegian University of Life Sciences\n\n\nAmrei Binzer-Panchal\nSwedish University of Agricultural Sciences\n\n\nLars Rönnegård\nSwedish University of Agricultural Sciences\n\n\nIsmo Strandén\nNatural Resources Institute, Finland"
   }
 ]
