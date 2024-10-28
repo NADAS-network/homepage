@@ -1,0 +1,26 @@
+---
+title: "Course: Reproducibility in Research with a focus on data analysis using R"
+description: "Oct 21st to Oct 25th, 2024, online via Zoom"
+author: "Amrei"
+date: "10-28-2024"
+categories:
+  - course
+  - reproducibility
+image: Rlogo.svg
+---
+
+We had a successful instance of the Reproducibility in Research course. Thank-you to all involved teachers, and of course the students!
+
+About the course: 
+The course defines reproducibility and explains why it is important in scientific practice, publication, and funding. It introduces basic concepts and tools for ensuring reproducibility in data analysis using R, while utilizing public databases for data access and storage. Through presentations, exercises, and discussions, participants learn how to increase the reproducibility of their research in the future.
+
+Find more information [here](https://personalkurser.slu.se/kurser/kurs.cfm?KursID=PVG0038&oid=10). 
+
+
+If you have any questions, please contact [Lars Rönnegård](Lars.qmd).
+
+
+
+<br>
+<center>
+[![](Rlogo.svg){.class width=40%}](https://www.r-project.org/about.html)
