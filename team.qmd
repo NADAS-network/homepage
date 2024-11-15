@@ -12,6 +12,7 @@ title: "Our team"
 | Oda Braar Wæge | Norwegian University of Life Sciences |
 | [Amrei Binzer-Panchal](Amrei.qmd) | Swedish University of Agricultural Sciences |
 | [Lars Rönnegård](Lars.qmd) | Swedish University of Agricultural Sciences |
+| [Hector Marina](Hector.qmd) | Swedish University of Agricultural Sciences |
 | Ismo Strandén | Natural Resources Institute, Finland |
 
 :  {.striped .hover}
