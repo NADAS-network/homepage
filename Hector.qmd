@@ -1,0 +1,14 @@
+---
+title: "Hector Marina"
+about: 
+  template: jolla
+  image: images/hm.jpg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0001-9226-2902"
+---
+ 
+Applied and quantitative geneticist.
+
+My research can be described as a combination of applied and quantitative genetic methods in different livestock species. Currently, my research focuses on investigating the indirect genetic effects of sociability in dairy cattle and its relevance to disease transmission.
