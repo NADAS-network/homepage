@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>News and events – NADAS</title>
+<title>Hector Marina – NADAS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,12 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -68,73 +65,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -175,7 +114,7 @@ window.Quarto = {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
 </ul>
@@ -201,184 +140,35 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">News and events</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="course">course <span class="quarto-category-count">(1)</span></div><div class="category" data-category="meeting">meeting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="news">news <span class="quarto-category-count">(2)</span></div><div class="category" data-category="reproducibility">reproducibility <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<div class="quarto-about-jolla">
+  <img src="images/hm.jpg" class="about-image
+  round " style="height: 15em; width: 15em;">
+ <header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hector Marina</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header><main class="content" id="quarto-document-content">
+<p>Applied and quantitative geneticist.</p>
+<p>My research can be described as a combination of applied and quantitative genetic methods in different livestock species. Currently, my research focuses on investigating the indirect genetic effects of sociability in dairy cattle and its relevance to disease transmission.</p>
 
 
-
-
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="course,reproducibility" data-listing-date-sort="1730073600000" data-listing-file-modified-sort="1731661145333" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<div class="thumbnail">
-<p><a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external"></a></p><a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/20241021_course_ReproducibleResInR/Rlogo.svg" class="thumbnail-image"></p>
-</a><p><a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external">Course: Reproducibility in Research with a focus on data analysis using R</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('course'); return false;">
-course
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('reproducibility'); return false;">
-reproducibility
+</main> 
+  <hr class="about-sep">
+   <div class="about-links">
+  <a href="https://orcid.org/0000-0001-9226-2902" class="about-link" rel="" target="">
+    <i class="bi bi-ORCID"></i>
+     <span class="about-link-text">ORCID</span>
+  </a>
 </div>
 </div>
-<div class="listing-description">
-<a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external">Oct 21st to Oct 25th, 2024, online via Zoom</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20241021_course_ReproducibleResInR/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="meeting" data-listing-date-sort="1730073600000" data-listing-file-modified-sort="1731661145333" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
-<div class="thumbnail">
-<p><a href="./posts/future_events/20241114_meeting/index.html" class="no-external"></a></p><a href="./posts/future_events/20241114_meeting/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/future_events/20241114_meeting/512px-Kopenhagen_(DK),_Nyhavn_--_2017_--_1704.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/future_events/20241114_meeting/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/future_events/20241114_meeting/index.html" class="no-external">Meeting: Physical meeting in Copenhagen</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/future_events/20241114_meeting/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('meeting'); return false;">
-meeting
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/future_events/20241114_meeting/index.html" class="no-external">Nov 14th &amp; 15th 2024</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20241114_meeting/index.html" class="no-external">
-<div class="listing-date">
-Oct 28, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="news,meeting" data-listing-date-sort="1711065600000" data-listing-file-modified-sort="1731661145333" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="376">
-<div class="thumbnail">
-<p><a href="./posts/20240312_kick-off_meeting/index.html" class="no-external"></a></p><a href="./posts/20240312_kick-off_meeting/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/20240312_kick-off_meeting/dronare.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240312_kick-off_meeting/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240312_kick-off_meeting/index.html" class="no-external">Kick-off meeting</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240312_kick-off_meeting/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('meeting'); return false;">
-meeting
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240312_kick-off_meeting/index.html" class="no-external">22nd of April, 12:30 - 16:30, online</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240312_kick-off_meeting/index.html" class="no-external">
-<div class="listing-date">
-Mar 22, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="news" data-listing-date-sort="1709164800000" data-listing-file-modified-sort="1731661145329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="41">
-<div class="thumbnail">
-<p><a href="./posts/20240229_funded/index.html" class="no-external"></a></p><a href="./posts/20240229_funded/index.html" class="no-external">
-<p><img loading="lazy" src="./posts/20240229_funded/Logo_NADAS.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/20240229_funded/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/20240229_funded/index.html" class="no-external">Funded!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/20240229_funded/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
-news
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/20240229_funded/index.html" class="no-external">It is official: our network has been funded.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/20240229_funded/index.html" class="no-external">
-<div class="listing-date">
-Feb 29, 2024
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+ <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -399,13 +189,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
