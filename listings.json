@@ -1,11 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/posts/future_events/20250205_online_meeting/index.html"
-    ]
-  },
-  {
     "listing": "/posts.html",
     "items": [
       "/posts/future_events/20250205_online_meeting/index.html",
@@ -13,6 +7,12 @@
       "/posts/20241021_course_ReproducibleResInR/index.html",
       "/posts/20240312_kick-off_meeting/index.html",
       "/posts/20240229_funded/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/future_events/20250205_online_meeting/index.html"
     ]
   }
 ]
