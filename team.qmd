@@ -7,7 +7,7 @@ title: "Our team"
 |------------|---------------|
 | [Emre Karaman](Emre.qmd) | Aarhus University, Denmark |
 | Erla Sturludóttir | Agricultural University of Iceland |
-| Jón Hjalti Eiríksson | Agricultural University of Iceland |
+| [Jón Hjalti Eiríksson](jon.qmd) | Agricultural University of Iceland |
 | Xijiang Yu | Norwegian University of Life Sciences |
 | Oda Braar Wæge | Norwegian University of Life Sciences |
 | [Amrei Binzer-Panchal](Amrei.qmd) | Swedish University of Agricultural Sciences |
