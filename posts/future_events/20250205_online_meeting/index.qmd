@@ -1,0 +1,23 @@
+---
+title: "Digital meeting: Collaborations Data Science and Companies"
+description: "Feb 5th, 2025"
+author: "Amrei"
+date: "11-15-2024"
+categories:
+  - meeting 
+image: pic_meeting.webp
+---
+
+We are now planning our next meeting, which will be held digitally. 
+
+We invite interested private sector actors to discuss needs for education and skills from future employees. 
+
+Check here for more information!
+
+<br>
+<center>
+[![](pic_meeting.webp){.class width=60%}]()
+
+
+
+(Picture: Jón, chatGPT4.0)
