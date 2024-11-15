@@ -1,0 +1,18 @@
+---
+title: "Jon Hjalti Eiriksson"
+about: 
+  template: jolla
+  image: images/jon.jpg
+  links:
+    - icon: ORCID
+      text: ORCID
+      url: "https://orcid.org/0000-0002-4655-2850"
+    - icon: github
+      text: Github
+      href: https://github.com/jonhjalti
+---
+ 
+Agricultural University of Iceland
+Quantitative genetics
+Breeding plans
+Sheep and cattle
