@@ -1,5 +1,5 @@
 ---
-title: "Digital meeting: Collaborations Data Science and Companies"
+title: "Digital meeting: Agricultural Data Scientists Meet Industry"
 description: "Feb 5th, 2025"
 author: "Amrei"
 date: "11-15-2024"
