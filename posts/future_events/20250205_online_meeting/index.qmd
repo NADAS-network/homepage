@@ -2,17 +2,19 @@
 title: "Digital meeting: Agricultural Data Scientists Meet Industry"
 description: "Feb 5th, 2025"
 author: "Amrei"
-date: "11-15-2024"
+date: "02-06-2025"
 categories:
   - meeting 
 image: pic_meeting.webp
 ---
 
-We are now planning our next meeting, which will be held digitally on Wednesday, February the 5th, 2025 between 10:00 and 15:00. 
+On February 5th, NADAS hosted a digital meeting with speakers from **Norsvin**, **Nordic Seed**, and **Aarhus University**, who shared insights on industry needs in agricultural data science. 
 
-We invite interested private sector actors to discuss needs for education and skills from future employees. 
+The speakers shared insights into their organizations, the types of data they work with, and the key competencies required in the field. Key skills highlighted included **genomics**, **genetics**, **statistics**, **complex modeling**, and **computational expertise**, along with **adaptability** and a **holistic approach** to breeding programs.
 
-Contact us to get the zoom link!
+After the talks, we discussed how to better connect students with industry. While students look for collaborative thesis projects with the private sector, companies struggle to find them for relevant projects. Strengthening these connections will be a key focus moving forward.
+
+Thank you everyone who joined us for an interesting meeting and discussions. 
 
 # Program:
 

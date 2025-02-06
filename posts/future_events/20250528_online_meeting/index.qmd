@@ -1,0 +1,21 @@
+---
+title: "Digital meeting: Data Security, Handling & Storage in the Nordic Region"
+description: "May 28th, 2025"
+author: "Amrei"
+date: "02-06-2025"
+categories:
+  - meeting 
+image: ../../../images/DALL%C2%B7E_agricultural_data.webp
+---
+
+We are planning our next NADAS meeting, focusing on data security, handling, and storage in the Nordic countries. To address these critical topics, we aim to engage with relevant groups and national infrastructures to explore best practices, challenges, and solutions for managing agricultural data.
+
+More details will follow soon.
+
+<br>
+<center>
+[![](../../../images/DALL%C2%B7E_agricultural_data.webp){.class width=60%}]()
+
+
+
+(Image generated with AI using DALL·E.)
