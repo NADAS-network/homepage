@@ -1,0 +1,40 @@
+---
+title: "Digital meeting: Agricultural Data Scientists Meet Industry"
+description: "Feb 5th, 2025"
+author: "Amrei"
+date: "02-06-2025"
+categories:
+  - meeting 
+image: pic_meeting.webp
+---
+
+On February 5th, NADAS hosted a digital meeting with speakers from **Norsvin**, **Nordic Seed**, and **Aarhus University**, who shared insights on industry needs in agricultural data science. 
+
+The speakers shared insights into their organizations, the types of data they work with, and the key competencies required in the field. Key skills highlighted included **genomics**, **genetics**, **statistics**, **complex modeling**, and **computational expertise**, along with **adaptability** and a **holistic approach** to breeding programs.
+
+After the talks, we discussed how to better connect students with industry. While students look for collaborative thesis projects with the private sector, companies struggle to find them for relevant projects. Strengthening these connections will be a key focus moving forward.
+
+Thank you everyone who joined us for an interesting meeting and discussions. 
+
+# Program:
+
+### Wednesday February 5th, 2025
+
+| Time  | Topic | Speaker |
+|--------|--------|--------|
+| 10:00  | Welcome and Agenda  | Emre Karaman, QGG |
+| 10:05   | Eli Grindflek   | Research Director at Norsvin |
+| 10:25 | Bjarne Nielsen   | Assoc Prof, QGG |
+| 10:40 | Pernille Merete Sarup   | Genomic Breeder, Nordic Seed |
+| 11:00 | Q&A and Open discussion | |
+| 12:00 | End | |
+
+:  {.striped .hover}
+
+<br>
+<center>
+[![](pic_meeting.webp){.class width=60%}]()
+
+
+
+(Picture: Jón, chatGPT4.0)

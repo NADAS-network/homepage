@@ -5,7 +5,7 @@ description: |
 listing:
   contents: posts/future_events
   id: future_events
-  sort: "date desc"
+  sort: "date asc"
   type: default
   categories: false
   sort-ui: false
