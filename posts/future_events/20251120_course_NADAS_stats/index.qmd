@@ -1,0 +1,41 @@
+---
+title: "Statistical methods in animal breeding "
+description: "With a focus on Genomic Selection and Genome-Wide Association Studies"
+author: "Amrei"
+date: "11-27-2025"
+categories:
+  - course
+  - training
+  - statistics
+  - breeding
+image: NADAS_logo.png
+start: "Nov 20th, Dec 4th, 2025"
+end: "and Feb 16-17th, 2026"
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates:
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} {{< meta end >}}
+::::
+:::
+
+This course offers a focused introduction to genomic selection and genome-wide association studies (GWAS), combining online seminars with hands-on computational training. Participants will discuss key methods, explore current research applications, and gain practical experience through guided computer exercises.
+
+The course will be held over three occassions (see details below): the first to instances will be online, while the hands-on part will be held in person in Uppsala, Sweden. If you wish to participate, send an email to lars.ronnegard@slu.se by the 17 th of November.
+
+Program: 
+
+| **Date**              | **Format**            | **Content** |
+|:----------------------|:----------------------|:-------------|
+| **20 Nov 2025**       | Online                | *Introduction to Genomic Selection & GWAS* (30 min); PhD project presentations (15 min each); Presentation of developed methods by Lars (30 min); Group discussion on future focus (45 min). |
+| **4 Dec 2025**        | Online                | *Introduction to selected method(s)*; Invited expert talk(s) if available. |
+| **16–17 Feb 2026**    | In-person, Uppsala    | *Lunch-to-lunch workshop* with computer exercises on the chosen method(s). |
+
+
+
+
+<center>
+![](NADAS_logo.png){.class width=60%}
