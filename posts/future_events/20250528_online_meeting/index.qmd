@@ -8,7 +8,7 @@ categories:
 image: rawpixel.png
 ---
 
-We are planning our next NADAS meeting, focusing on data security, handling, and storage in the Nordic countries. To address these critical topics, we aim to engage with relevant groups and national infrastructures to explore best practices, challenges, and solutions for managing agricultural data.
+Our next NADAS meeting, will focus on data security, handling, and storage in the Nordic countries. To address these critical topics, we aim to engage with relevant groups and national infrastructures to explore best practices, challenges, and solutions for managing agricultural data.
 
 More details will follow soon.
 
