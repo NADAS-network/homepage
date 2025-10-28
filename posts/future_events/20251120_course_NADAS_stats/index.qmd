@@ -22,19 +22,45 @@ Course dates:
 ::::
 :::
 
-This course offers a focused introduction to genomic selection and genome-wide association studies (GWAS), combining online seminars with hands-on computational training. Participants will discuss key methods, explore current research applications, and gain practical experience through guided computer exercises.
+This is a short informal course organized by the NADAS network. If you wish to participate, send an email to lars.ronnegard@slu.se by the 17th of November.
 
-The course will be held over three occassions (see details below): the first to instances will be online, while the hands-on part will be held in person in Uppsala, Sweden. If you wish to participate, send an email to lars.ronnegard@slu.se by the 17 th of November.
+During the course, the students will gain basic knowledge of methods in genomic selections and genome-wide association studies. They will be introduced to R packages for genomic selection and GWAS. They will perform hands-on computer exercises using a subset of these R packages. Several papers on Genomic Selection and GWAS will be discussed. There will be a couple of presentations on advanced topics and in the final home assignment the students will participate in an open genomic-prediction tournament.
 
-Program: 
+## Schedule and content
 
-| **Date**              | **Format**            | **Content** |
-|:----------------------|:----------------------|:-------------|
-| **20 Nov 2025**       | Online                | *Introduction to Genomic Selection & GWAS* (30 min); PhD project presentations (15 min each); Presentation of developed methods by Lars (30 min); Group discussion on future focus (45 min). |
-| **4 Dec 2025**        | Online                | *Introduction to selected method(s)*; Invited expert talk(s) if available. |
-| **16–17 Feb 2026**    | In-person, Uppsala    | *Lunch-to-lunch workshop* with computer exercises on the chosen method(s). |
+## 20th of November 2025, online           
 
+Introduction to Genomic Selection & GWAS (30 minutes)
 
+- Which research questions do Genomic Selection and GWAS try to answer?
+- What are SNP-genotypes and how can they be coded for statistical analysis?
+- Introduction to GWAS: a way to find loci with significant effects on a phenotype by fitting a linear regression at each loci.
+- Introduction to Genomic Selection: a way to predict phenotypes by modelling all the effects of SNPs along the genome simultaneously.
+- A brief overview of useful software for Genomic Selection and GWAS. 
+
+Students present their PhD project, and methods on Genomic Selection or GWAS they would like to learn more about (15 minutes each).
+
+Lars presents methods he has developed over the years (30 minutes).
+
+- GWAS analysis when individuals have repeated phenotypic observations implemented in the R package RepeatABEL.
+- vGWAS and vQTL methods: finding loci affecting the dispersion of a phenotype.
+- Ranking individuals based on their genetic merit for phenotypic dispersion.
+
+We have a discussion on which methods to focus on next time (45 minutes).
+
+## 4th of December 2025, online
+
+The students are introduced to the method(s) we have decided to focus on. The course leader will guide the participants to understand the methods using examples in R and by discussing papers on the topic.
+
+Ismo Strandén, Research Professor at LUKE, will give an overview of methods in genomic selection he has developed over the years.
+
+We will also try to invite other experts within the field give a short talk depending on the method(s) we decide to focus on.
+
+## 16-17th of February 2026: lunch-to-lunch in-person meeting in Uppsala
+
+Computer exercises using R on the chosen method(s) to focus on.
+
+By the end of the course the students will be introduced to a prediction competition using genotype and phenotype data. This will be the home assignment for the course.  
 
 
 <center>
