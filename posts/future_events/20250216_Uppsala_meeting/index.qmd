@@ -5,7 +5,7 @@ author: "Amrei"
 date: "2025-12-16"
 categories:
   - meeting 
-image: rawpixel.png
+image: 2048px-Uppsala_domkyrka.jpg
 ---
 
 The meeting in Uppsala will be an on-site meeting with sessions of two short courses on scientific computing and statistical methods in animal breeding. 
@@ -29,3 +29,6 @@ The meeting in Uppsala will be an on-site meeting with sessions of two short cou
 
 Welcome!
 
+<br>
+<center>
+[![](2048px-Uppsala_domkyrka.jpg){.class width=60%}]()
