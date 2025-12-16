@@ -1,0 +1,31 @@
+---
+title: "NADAS meeting in Uppsala "
+description: "Feb 16th-18th, 2026"
+author: "Amrei"
+date: "2025-12-16"
+categories:
+  - meeting 
+image: rawpixel.png
+---
+
+The meeting in Uppsala will be an on-site meeting with sessions of two short courses on scientific computing and statistical methods in animal breeding. 
+
+**Dates:** 16th to 18th of February, 2026.
+
+**Venue:** The Ultuna Campus at SLU, Uppsala.
+
+**Travel expenses and accommodation:** may be covered if you are a PhD student or researcher at one of the partner institutions. Please contact your contact person for more information.
+
+**Meeting Schedule**
+
+
+| Date | Time | Event |
+|---|---|---|
+| 16–17 February | lunch-to-lunch | Final computer exercises for the course on *Statistical methods in animal breeding* (focus on Genomic Selection and GWAS) |
+| 17–18 February | lunch-to-lunch | Second meeting for the course on *Scientific computing using Julia language* |
+| 18 February | lunch-to-late | Final internal NADAS meeting and dinner |
+
+:  {.striped .hover}
+
+Welcome!
+
