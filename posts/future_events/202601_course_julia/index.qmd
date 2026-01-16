@@ -1,0 +1,40 @@
+---
+title: "Scientific computing using Julia language"
+description: ""
+author: "Amrei"
+date: "16-01-2025"
+categories:
+  - course
+  - training
+  - quantitative genetics
+  - julia
+image: julia.png
+start: "Feb 10th, 17th & 18th"
+end: "Feb 24th & 25th, 2026"
+---
+
+::: {.course-meta-block .quarto-title-meta}
+:::: {.quarto-title-meta-heading}
+Course dates:
+::::
+:::: {.quarto-title-meta-contents}
+{{< meta start >}} and {{< meta end >}}
+::::
+:::
+
+
+This course targets MSc and PhD students who work in quantitative genetics, and it aims at providing students with basic knowledge of scientific computing, and introducing Julia language and its use in genomic research. The course aligns with the another NADAS organized course: Statistical methods in animal breeding: With a focus on Genomic Selection and Genome-Wide Association Studies. Students who participates that course are encouraged to combine it with the Julia course. The dates of both courses were planned such that students have the opportunity to participate both courses' on-site sessions at Uppsala, from 16-18th February. The students are expected to participate in an open genomic-prediction tournament as the final assignment.
+
+# Schedule
+
+| Date            | Format  | Duration | Topic                                                                                                      | Instructor(s)                                   |
+|-----------------|---------|----------|------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| 10 February     | Online  | 2 hours  | General introduction to scientific computing: hardware, data types, data structures, algorithms           | Viktor Milkevych                               |
+| 17 February     | Uppsala | 2 hours  | General introduction to Julia and differences from other languages. Introduction to assignment and genomic prediction tournament | Bjarke G. Poulsen, Emre Karaman                |
+| 18 February     | Uppsala | 2 hours  | Linear mixed model examples using matrix algebra in Julia                                                   | Bjarke G. Poulsen, Emre Karaman                |
+| 24 February     | Online  | 2 hours  | Evaluation of students’ codes/scripts                                                                       | Bjarke G. Poulsen, Emre Karaman                |
+| 25 February     | Online  | 2 hours  | Julia for genomic research (tools for data simulation and analysis)                                         | Xijiang Yu, Bjarke G. Poulsen, Emre Karaman    |
+
+:  {.striped .hover}
+
+This course is organized by the NADAS network. If you wish to participate, send an email to **emre@qgg.au.dk** by the 20th of January 2026.
