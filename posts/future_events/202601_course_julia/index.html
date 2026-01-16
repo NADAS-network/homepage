@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Amrei">
+<meta name="dcterms.date" content="2026-04-01">
 
-<title>Emre Karaman – NADAS</title>
+<title>Scientific computing using Julia language – NADAS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,21 +72,21 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
-    <img src="./images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
+    <img src="../../../images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">NADAS</span>
     </a>
   </div>
@@ -94,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -103,21 +106,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./funding.html">
+    <a class="dropdown-item" href="../../../funding.html">
  <span class="dropdown-text">Funding body</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./institutions.html">
+    <a class="dropdown-item" href="../../../institutions.html">
  <span class="dropdown-text">Participating institutions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html">
+    <a class="dropdown-item" href="../../../team.html">
  <span class="dropdown-text">Team members</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../../posts.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
 </ul>
@@ -143,40 +146,140 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Scientific computing using Julia language</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">course</div>
+                <div class="quarto-category">training</div>
+                <div class="quarto-category">quantitative genetics</div>
+                <div class="quarto-category">julia</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Amrei </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">April 1, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/Emre_Karaman.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Emre Karaman</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p>Statistical geneticist at the <a href="https://qgg.au.dk/en/about-qgg/contact/show/person/emre@qgg.au.dk">Center for Quantitative Genetics and Genomics</a>. Developer of <a href="https://datasciencetoolkit.github.io/NextGP.jl/stable/home/">NextGP.jl</a> statistical analysis package for genomic prediction.</p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://orcid.org/0000-0003-1010-683X" class="about-link" rel="" target="">
-    <i class="bi bi-ORCID"></i>
-     <span class="about-link-text">ORCID</span>
-  </a>
-  <a href="https://github.com/datasciencetoolkit" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+
+
+
+<div class="course-meta-block quarto-title-meta">
+<div class="quarto-title-meta-heading">
+<p>Course dates:</p>
+</div>
+<div class="quarto-title-meta-contents">
+<p>Feb 10th, 17th &amp; 18th and Feb 24th &amp; 25th, 2026</p>
 </div>
 </div>
- <!-- /main -->
+<p>This course targets MSc and PhD students who work in quantitative genetics, and it aims at providing students with basic knowledge of scientific computing, and introducing Julia language and its use in genomic research. The course aligns with the another NADAS organized course: Statistical methods in animal breeding: With a focus on Genomic Selection and Genome-Wide Association Studies. Students who participates that course are encouraged to combine it with the Julia course. The dates of both courses were planned such that students have the opportunity to participate both courses’ on-site sessions at Uppsala, from 16-18th February. The students are expected to participate in an open genomic-prediction tournament as the final assignment.</p>
+<section id="schedule" class="level1">
+<h1>Schedule</h1>
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 4%">
+<col style="width: 5%">
+<col style="width: 56%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Date</th>
+<th>Format</th>
+<th>Duration</th>
+<th>Topic</th>
+<th>Instructor(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>10 February</td>
+<td>Online</td>
+<td>2 hours</td>
+<td>General introduction to scientific computing: hardware, data types, data structures, algorithms</td>
+<td>Viktor Milkevych</td>
+</tr>
+<tr class="even">
+<td>17 February</td>
+<td>Uppsala</td>
+<td>2 hours</td>
+<td>General introduction to Julia and differences from other languages. Introduction to assignment and genomic prediction tournament</td>
+<td>Bjarke G. Poulsen, Emre Karaman</td>
+</tr>
+<tr class="odd">
+<td>18 February</td>
+<td>Uppsala</td>
+<td>2 hours</td>
+<td>Linear mixed model examples using matrix algebra in Julia</td>
+<td>Bjarke G. Poulsen, Emre Karaman</td>
+</tr>
+<tr class="even">
+<td>24 February</td>
+<td>Online</td>
+<td>2 hours</td>
+<td>Evaluation of students’ codes/scripts</td>
+<td>Bjarke G. Poulsen, Emre Karaman</td>
+</tr>
+<tr class="odd">
+<td>25 February</td>
+<td>Online</td>
+<td>2 hours</td>
+<td>Julia for genomic research (tools for data simulation and analysis)</td>
+<td>Xijiang Yu, Bjarke G. Poulsen, Emre Karaman</td>
+</tr>
+</tbody>
+</table>
+<p>This course is organized by the NADAS network. If you wish to participate, send an email to <strong>emre@qgg.au.dk</strong> by the 20th of January 2026.</p>
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
