@@ -2,7 +2,7 @@
 title: "Scientific computing using Julia language"
 description: ""
 author: "Amrei"
-date: "16-01-2025"
+date: "01-16-2025"
 categories:
   - course
   - training
