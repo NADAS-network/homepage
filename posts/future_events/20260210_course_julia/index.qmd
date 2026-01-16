@@ -2,7 +2,7 @@
 title: "Scientific computing using Julia language"
 description: ""
 author: "Amrei"
-date: "01-16-2025"
+date: "01-16-2026"
 categories:
   - course
   - training
@@ -38,3 +38,7 @@ This course targets MSc and PhD students who work in quantitative genetics, and 
 :  {.striped .hover}
 
 This course is organized by the NADAS network. If you wish to participate, send an email to **emre@qgg.au.dk** by the 20th of January 2026.
+
+<br>
+<center>
+[![](julia.png){.class width=60%}]()
