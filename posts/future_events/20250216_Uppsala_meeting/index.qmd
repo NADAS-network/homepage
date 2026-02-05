@@ -18,16 +18,22 @@ The meeting in Uppsala will be an on-site meeting with sessions of two short cou
 
 **Meeting Schedule**
 
+Lunches are scheduled between 12:00 and 13:00 every day. 
 
-| Date | Time | Event |
-|---|---|---|
-| 16–17 February | lunch-to-lunch | Final computer exercises for the course on *Statistical methods in animal breeding* (focus on Genomic Selection and GWAS) |
-| 17–18 February | lunch-to-lunch | Second meeting for the course on *Scientific computing using Julia language* |
-| 18 February | lunch-to-late | Final internal NADAS meeting and dinner |
+
+| Date                     | Format  | Duration        | Activity                                                                            |
+|--------------------------|---------|-----------------|--------------------------------------------------------------------------|
+| 16–17 February           | Onsite  | Lunch-to-lunch  | Course: [Statistical methods in animal breeding](../20251120_course_NADAS_stats/)                           |
+| 17–18 February           | Onsite  | Lunch-to-lunch  | Course: [Scientific computing using Julia language](../20260210_course_julia/)                         |
+| 18 February (afternoon)  | Onsite  | After lunch     | Final NADAS meeting for network members
+
 
 :  {.striped .hover}
 
-Welcome!
+<br>
+For more information, including travel and hotel information, please download the [meeting PDF](Welcome%20to%20the%20NADAS%20meeting%20in%20Uppsala%20with%20more%20info.pdf).
+
+We look forward meeting you in Uppsala!
 
 <br>
 <center>
