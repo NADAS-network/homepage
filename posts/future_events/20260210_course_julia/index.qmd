@@ -32,8 +32,8 @@ This course targets MSc and PhD students who work in quantitative genetics, and 
 | Date            | Format  | Duration | Topic                                                                                                      | Instructor(s)                                   |
 |-----------------|---------|----------|------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | 10 February     | Online  | 2 hours  | General introduction to scientific computing: hardware, data types, data structures, algorithms           | Viktor Milkevych                               |
-| 17 February     | Uppsala | 2,5 hours  | General introduction to Julia and differences from other languages. | Bjarke G. Poulsen, Emre Karaman                |
-| 18 February     | Uppsala | 2 hours  | Linear mixed model examples using matrix algebra in Julia, Introduction to assignment and genomic prediction tournament                                                   | Bjarke G. Poulsen, Emre Karaman                |
+| 17 February     | Uppsala | 3,5 hours  | General introduction to Julia and differences from other languages. | Bjarke G. Poulsen, Emre Karaman                |
+| 18 February     | Uppsala | 3 hours  | Linear mixed model examples using matrix algebra in Julia, Introduction to assignment and genomic prediction tournament                                                   | Bjarke G. Poulsen, Emre Karaman                |
 | 24 February     | Online  | 2 hours  | Evaluation of students’ codes/scripts                                                                       | Bjarke G. Poulsen, Emre Karaman                |
 | 25 February     | Online  | 2 hours  | Julia for genomic research (tools for data simulation and analysis)                                         | Xijiang Yu, Bjarke G. Poulsen, Emre Karaman    |
 
