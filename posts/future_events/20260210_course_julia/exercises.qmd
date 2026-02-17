@@ -1,0 +1,93 @@
+# Exercises for the *Scientific computing using Julia language* course
+## Managing a project environment and packages
+For these exercises I am also expecting that you are working in the REPL.
+
+### Activating a project environment and installing packages into it
+
+1.  Activate a project environment in a new folder.
+2.  Install the *Dates* package from the Julia Ecosystem into your project environment.
+3.  Which files were created when you made the project environment?
+4.  What do each of these files contain?
+5.  How can you see in the REPL that you are in a project environment?
+6.  What is the name of your project environment?
+7.  Change the name of your project environment to something of your choosing.
+8.  Install the DateFrames package?
+8.  How did the project environment files change?
+9.  Find 3 packages that the *DataFrames* package depends on.
+10. Find the dependency of *DataFrames* with the most dependencies
+11. Install the develop_speed branch of the LocalAncestry package from Github (https://github.com/BgroveP/LocalAncestry.jl/tree/develop_speed)
+12. Exit the current project environment and access the global environment without exiting Julia
+13. Reenter your project environment and remove the LocalAncestry package.
+14. In another folder, prepare a project environment using the *instantiate* function.
+15. Write how you would delete your project environment.
+
+# Standard types
+## Integers
+1. Initialize an integer without explicitly stating its type, e.g. with *x = 1*. What is its exact type?
+2. Initialize a decimal number using *x = 1.6*, and convert the number to its nearest integer.
+3. Initialize a string using *x = "1"* and convert it to an integer.
+4. When multiplying an integer with a float type, does the order of the two matter for the type of the result?
+
+## Decimal numbers
+1. Initialize a decimal number without explicitly stating its type, e.g. with *x = 1.0*. What is its exact type?
+2. Convert an integer variable to a float variable
+3. Convert at string variable to a float variable
+
+## Characters
+1. Initialize an uppercase character
+2. Initialize a range of characters
+3. Convert a digit character to an Integer
+
+## Strings
+1. Initialize a variable with the following String value: *ABCDEFGhijklmno*
+2. Remove all lowercase letters.
+3. Retain the third to seventh letter.
+4. Concatenate the string with this string: *pqrstuvwxyz*
+5. Split the string into a vector of individual characters.
+6. Concatenate each of these characters with a comma suffix.
+7. Join the vector of strings into one string.
+8. Replace all commas with empty strings.
+9. Check if the following string *TGGCATCGTAAGCTAGGCATT* contains *GTAAC*.
+10. Find the position of *GTAA* in the string above.
+11. Using regular expressions, remove everything after *GTAA* in the string above. 
+
+# Collections
+## Tuples (Technically not a collection in Julia)
+1. Create a Tuple object with an integer and a string.
+2. Unpack this tuple into two separated variables.
+3. Create a NamedTuple object with an integer and a string.
+4. Access the values of this named tuple using both their names and indices.
+5. Can you change one entry in a tuple without remaking the whole object?
+
+## Arrays
+1. Create an 10x1 Array filled with zeros of the Integer type.
+2. Change the third element to a *3*.
+3. Create a 100 x 10 Array filled with random decimal values. Get the average of each column.
+4. Create the following Array: *[1,5,1,8,3,3,6,7,8,9,2,1,7,0,3,7,5,2,7,1]*, and remove all values smaller than 6 from it.
+
+## Dictionaries
+1. Create a dictionary object that maps *A* to *1* and *T* to *2*.
+2. In a separate line, add the *C* to *3* mapping.
+3. Check if the dictionary has an entrance with the *C* key.
+4. Delete the entrance with the *T* key.
+5. Substract Arrays with the keys and values of the dictionary.
+6. How would you request a value from a dictionary with a default value when a key is not present?
+7. Is the order of keys in the dictionary the same as the order in which you entered them?
+
+
+# Functions 
+1. Create a function that calculates the cumulative sum of a vector and returns the result.
+2. Add an optional logical parameter where if this is true print every second element in the resulting vector. 
+3. Limit the function to only accepting integers.
+4. Create another function that does the above with a matrix.
+5. What is the benefit of broadcasting?
+
+# General use
+## CSV package
+1. Install and load the RDatasets, CSV, and DataFrames packages
+2. Load the iris dataset from the RDatasets package
+3. Calculate the average sepal length per species
+4. Create a lineplot between petal length and petal width where the lines dont cross
+5. Write all rows except those that contain the setosa species to a .csv file.
+6. If you have more time, play around with the stack, unstack, joins, transform functions.
+
