@@ -2,82 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://NADAS-network.github.io/homepage/Hector.html</loc>
-    <lastmod>2026-02-19T10:19:58.346Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.195Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts.html</loc>
-    <lastmod>2026-02-19T10:19:58.375Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.225Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/team.html</loc>
-    <lastmod>2026-02-19T10:19:58.404Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.255Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/jon.html</loc>
-    <lastmod>2026-02-19T10:19:58.374Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.224Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20250205_online_meeting/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.391Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.241Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20240312_kick-off_meeting/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.378Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.226Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20241021_course_ReproducibleResInR/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.378Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.226Z</lastmod>
   </url>
   <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.404Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20251120_course_NADAS_stats/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.403Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/Emre.html</loc>
-    <lastmod>2026-02-19T10:19:58.346Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.374Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/20241114_meeting_Kopenhagen/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.391Z</lastmod>
-  </url>
-  <url>
-    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20250216_Uppsala_meeting/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.402Z</lastmod>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/GBLUP.html</loc>
+    <lastmod>2026-02-19T10:20:54.254Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/exercises.html</loc>
-    <lastmod>2026-02-19T10:19:58.404Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20250216_Uppsala_meeting/index.html</loc>
+    <lastmod>2026-02-19T10:20:54.251Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/20241114_meeting_Kopenhagen/index.html</loc>
+    <lastmod>2026-02-19T10:20:54.241Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/index.html</loc>
+    <lastmod>2026-02-19T10:20:54.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/Emre.html</loc>
+    <lastmod>2026-02-19T10:20:54.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20251120_course_NADAS_stats/index.html</loc>
+    <lastmod>2026-02-19T10:20:54.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/index.html</loc>
+    <lastmod>2026-02-19T10:20:54.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/SNPBLUP.html</loc>
+    <lastmod>2026-02-19T10:20:54.254Z</lastmod>
+  </url>
+  <url>
+    <loc>https://NADAS-network.github.io/homepage/posts/future_events/20260210_course_julia/Animal Model.html</loc>
+    <lastmod>2026-02-19T10:20:54.254Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20240229_funded/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.376Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.226Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/posts/20250528_online_meeting/index.html</loc>
-    <lastmod>2026-02-19T10:19:58.393Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.242Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/funding.html</loc>
-    <lastmod>2026-02-19T10:19:58.346Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.195Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/institutions.html</loc>
-    <lastmod>2026-02-19T10:19:58.374Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.224Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/Lars.html</loc>
-    <lastmod>2026-02-19T10:19:58.346Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.195Z</lastmod>
   </url>
   <url>
     <loc>https://NADAS-network.github.io/homepage/Amrei.html</loc>
-    <lastmod>2026-02-19T10:19:58.346Z</lastmod>
+    <lastmod>2026-02-19T10:20:54.195Z</lastmod>
   </url>
 </urlset>
