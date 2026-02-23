@@ -3,7 +3,7 @@ title: "Welcome to NADAS"
 description: |
   The Nordic Network of Agricultural Data Scientists
 listing:
-  contents: posts/future_events
+  contents: posts/future_events/*/index.qmd
   id: future_events
   sort: "date asc"
   type: default
