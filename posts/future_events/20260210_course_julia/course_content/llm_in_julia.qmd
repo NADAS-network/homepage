@@ -1,0 +1,12 @@
+## Lecture slides "Linear Mixed Model - LMM"
+
+[Open/download the PDF](course_content/18022026_Combined.pdf)
+
+<details>
+<summary>Show PDF inline</summary>
+
+<object data="18022026_Combined.pdf" type="application/pdf" width="100%" height="900">
+  <p><a href="18022026_Combined.pdf">Open/download the PDF</a></p>
+</object>
+
+</details>
