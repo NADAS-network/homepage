@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Amrei">
-<meta name="dcterms.date" content="2026-01-16">
 
-<title>Scientific computing using Julia language – NADAS</title>
+<title>julia_exercises – NADAS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../../">
+<script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -82,11 +80,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
-    <img src="../../../images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
+    <a href="../../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../../images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
+    <img src="../../../../images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../../../index.html">
     <span class="navbar-title">NADAS</span>
     </a>
   </div>
@@ -97,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -106,21 +104,21 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="../../../funding.html">
+    <a class="dropdown-item" href="../../../../funding.html">
  <span class="dropdown-text">Funding body</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../institutions.html">
+    <a class="dropdown-item" href="../../../../institutions.html">
  <span class="dropdown-text">Participating institutions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../team.html">
+    <a class="dropdown-item" href="../../../../team.html">
  <span class="dropdown-text">Team members</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../posts.html"> 
+    <a class="nav-link" href="../../../../posts.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
 </ul>
@@ -146,41 +144,7 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Scientific computing using Julia language</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">course</div>
-                <div class="quarto-category">training</div>
-                <div class="quarto-category">quantitative genetics</div>
-                <div class="quarto-category">julia</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Amrei </p>
-            </div>
-    </div>
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">January 16, 2026</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -188,7 +152,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  <li><a href="#exercises-for-the-scientific-computing-using-julia-language-course" id="toc-exercises-for-the-scientific-computing-using-julia-language-course" class="nav-link active" data-scroll-target="#exercises-for-the-scientific-computing-using-julia-language-course">Exercises for the <em>Scientific computing using Julia language</em> course</a>
+  <ul class="collapse">
+  <li><a href="#managing-a-project-environment-and-packages" id="toc-managing-a-project-environment-and-packages" class="nav-link" data-scroll-target="#managing-a-project-environment-and-packages">Managing a project environment and packages</a>
+  <ul class="collapse">
+  <li><a href="#activating-a-project-environment-and-installing-packages-into-it" id="toc-activating-a-project-environment-and-installing-packages-into-it" class="nav-link" data-scroll-target="#activating-a-project-environment-and-installing-packages-into-it">Activating a project environment and installing packages into it</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#standard-types" id="toc-standard-types" class="nav-link" data-scroll-target="#standard-types">Standard types</a>
+  <ul class="collapse">
+  <li><a href="#integers" id="toc-integers" class="nav-link" data-scroll-target="#integers">Integers</a></li>
+  <li><a href="#decimal-numbers" id="toc-decimal-numbers" class="nav-link" data-scroll-target="#decimal-numbers">Decimal numbers</a></li>
+  <li><a href="#characters" id="toc-characters" class="nav-link" data-scroll-target="#characters">Characters</a></li>
+  <li><a href="#strings" id="toc-strings" class="nav-link" data-scroll-target="#strings">Strings</a></li>
+  </ul></li>
+  <li><a href="#collections" id="toc-collections" class="nav-link" data-scroll-target="#collections">Collections</a>
+  <ul class="collapse">
+  <li><a href="#tuples-technically-not-a-collection-in-julia" id="toc-tuples-technically-not-a-collection-in-julia" class="nav-link" data-scroll-target="#tuples-technically-not-a-collection-in-julia">Tuples (Technically not a collection in Julia)</a></li>
+  <li><a href="#arrays" id="toc-arrays" class="nav-link" data-scroll-target="#arrays">Arrays</a></li>
+  <li><a href="#dictionaries" id="toc-dictionaries" class="nav-link" data-scroll-target="#dictionaries">Dictionaries</a></li>
+  </ul></li>
+  <li><a href="#functions" id="toc-functions" class="nav-link" data-scroll-target="#functions">Functions</a></li>
+  <li><a href="#general-use" id="toc-general-use" class="nav-link" data-scroll-target="#general-use">General use</a>
+  <ul class="collapse">
+  <li><a href="#csv-package" id="toc-csv-package" class="nav-link" data-scroll-target="#csv-package">CSV package</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -198,80 +186,138 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<section id="exercises-for-the-scientific-computing-using-julia-language-course" class="level1">
+<h1>Exercises for the <em>Scientific computing using Julia language</em> course</h1>
+<section id="managing-a-project-environment-and-packages" class="level2">
+<h2 class="anchored" data-anchor-id="managing-a-project-environment-and-packages">Managing a project environment and packages</h2>
+<p>For these exercises I am also expecting that you are working in the REPL.</p>
+<section id="activating-a-project-environment-and-installing-packages-into-it" class="level3">
+<h3 class="anchored" data-anchor-id="activating-a-project-environment-and-installing-packages-into-it">Activating a project environment and installing packages into it</h3>
+<ol type="1">
+<li>Activate a project environment in a new folder.</li>
+<li>Install the <em>Dates</em> package from the Julia Ecosystem into your project environment.</li>
+<li>Which files were created when you made the project environment?</li>
+<li>What do each of these files contain?</li>
+<li>How can you see in the REPL that you are in a project environment?</li>
+<li>What is the name of your project environment?</li>
+<li>Change the name of your project environment to something of your choosing.</li>
+<li>Install the DateFrames package?</li>
+<li>How did the project environment files change?</li>
+<li>Find 3 packages that the <em>DataFrames</em> package depends on.</li>
+<li>Find the dependency of <em>DataFrames</em> with the most dependencies</li>
+<li>Install the develop_speed branch of the LocalAncestry package from Github (https://github.com/BgroveP/LocalAncestry.jl/tree/develop_speed)</li>
+<li>Exit the current project environment and access the global environment without exiting Julia</li>
+<li>Reenter your project environment and remove the LocalAncestry package.</li>
+<li>In another folder, prepare a project environment using the <em>instantiate</em> function.</li>
+<li>Write how you would delete your project environment.</li>
+</ol>
+</section>
+</section>
+</section>
+<section id="standard-types" class="level1">
+<h1>Standard types</h1>
+<section id="integers" class="level2">
+<h2 class="anchored" data-anchor-id="integers">Integers</h2>
+<ol type="1">
+<li>Initialize an integer without explicitly stating its type, e.g.&nbsp;with <em>x = 1</em>. What is its exact type?</li>
+<li>Initialize a decimal number using <em>x = 1.6</em>, and convert the number to its nearest integer.</li>
+<li>Initialize a string using <em>x = “1”</em> and convert it to an integer.</li>
+<li>When multiplying an integer with a float type, does the order of the two matter for the type of the result?</li>
+</ol>
+</section>
+<section id="decimal-numbers" class="level2">
+<h2 class="anchored" data-anchor-id="decimal-numbers">Decimal numbers</h2>
+<ol type="1">
+<li>Initialize a decimal number without explicitly stating its type, e.g.&nbsp;with <em>x = 1.0</em>. What is its exact type?</li>
+<li>Convert an integer variable to a float variable</li>
+<li>Convert at string variable to a float variable</li>
+</ol>
+</section>
+<section id="characters" class="level2">
+<h2 class="anchored" data-anchor-id="characters">Characters</h2>
+<ol type="1">
+<li>Initialize an uppercase character</li>
+<li>Initialize a range of characters</li>
+<li>Convert a digit character to an Integer</li>
+</ol>
+</section>
+<section id="strings" class="level2">
+<h2 class="anchored" data-anchor-id="strings">Strings</h2>
+<ol type="1">
+<li>Initialize a variable with the following String value: <em>ABCDEFGhijklmno</em></li>
+<li>Remove all lowercase letters.</li>
+<li>Retain the third to seventh letter.</li>
+<li>Concatenate the string with this string: <em>pqrstuvwxyz</em></li>
+<li>Split the string into a vector of individual characters.</li>
+<li>Concatenate each of these characters with a comma suffix.</li>
+<li>Join the vector of strings into one string.</li>
+<li>Replace all commas with empty strings.</li>
+<li>Check if the following string <em>TGGCATCGTAAGCTAGGCATT</em> contains <em>GTAAC</em>.</li>
+<li>Find the position of <em>GTAA</em> in the string above.</li>
+<li>Using regular expressions, remove everything after <em>GTAA</em> in the string above.</li>
+</ol>
+</section>
+</section>
+<section id="collections" class="level1">
+<h1>Collections</h1>
+<section id="tuples-technically-not-a-collection-in-julia" class="level2">
+<h2 class="anchored" data-anchor-id="tuples-technically-not-a-collection-in-julia">Tuples (Technically not a collection in Julia)</h2>
+<ol type="1">
+<li>Create a Tuple object with an integer and a string.</li>
+<li>Unpack this tuple into two separated variables.</li>
+<li>Create a NamedTuple object with an integer and a string.</li>
+<li>Access the values of this named tuple using both their names and indices.</li>
+<li>Can you change one entry in a tuple without remaking the whole object?</li>
+</ol>
+</section>
+<section id="arrays" class="level2">
+<h2 class="anchored" data-anchor-id="arrays">Arrays</h2>
+<ol type="1">
+<li>Create an 10x1 Array filled with zeros of the Integer type.</li>
+<li>Change the third element to a <em>3</em>.</li>
+<li>Create a 100 x 10 Array filled with random decimal values. Get the average of each column.</li>
+<li>Create the following Array: <em>[1,5,1,8,3,3,6,7,8,9,2,1,7,0,3,7,5,2,7,1]</em>, and remove all values smaller than 6 from it.</li>
+</ol>
+</section>
+<section id="dictionaries" class="level2">
+<h2 class="anchored" data-anchor-id="dictionaries">Dictionaries</h2>
+<ol type="1">
+<li>Create a dictionary object that maps <em>A</em> to <em>1</em> and <em>T</em> to <em>2</em>.</li>
+<li>In a separate line, add the <em>C</em> to <em>3</em> mapping.</li>
+<li>Check if the dictionary has an entrance with the <em>C</em> key.</li>
+<li>Delete the entrance with the <em>T</em> key.</li>
+<li>Substract Arrays with the keys and values of the dictionary.</li>
+<li>How would you request a value from a dictionary with a default value when a key is not present?</li>
+<li>Is the order of keys in the dictionary the same as the order in which you entered them?</li>
+</ol>
+</section>
+</section>
+<section id="functions" class="level1">
+<h1>Functions</h1>
+<ol type="1">
+<li>Create a function that calculates the cumulative sum of a vector and returns the result.</li>
+<li>Add an optional logical parameter where if this is true print every second element in the resulting vector.</li>
+<li>Limit the function to only accepting integers.</li>
+<li>Create another function that does the above with a matrix.</li>
+<li>What is the benefit of broadcasting?</li>
+</ol>
+</section>
+<section id="general-use" class="level1">
+<h1>General use</h1>
+<section id="csv-package" class="level2">
+<h2 class="anchored" data-anchor-id="csv-package">CSV package</h2>
+<ol type="1">
+<li>Install and load the RDatasets, CSV, and DataFrames packages</li>
+<li>Load the iris dataset from the RDatasets package</li>
+<li>Calculate the average sepal length per species</li>
+<li>Create a lineplot between petal length and petal width where the lines dont cross</li>
+<li>Write all rows except those that contain the setosa species to a .csv file.</li>
+<li>If you have more time, play around with the stack, unstack, joins, transform functions.</li>
+</ol>
 
-<div class="course-meta-block quarto-title-meta">
-<div class="quarto-title-meta-heading">
-<p>Course dates:</p>
-</div>
-<div class="quarto-title-meta-contents">
-<p>Feb 10th, 17th &amp; 18th and Feb 24th &amp; 25th, 2026</p>
-</div>
-</div>
-<p>This course targets MSc and PhD students who work in quantitative genetics, and it aims at providing students with basic knowledge of scientific computing, and introducing Julia language and its use in genomic research. The course aligns with the another NADAS organized course: Statistical methods in animal breeding: With a focus on Genomic Selection and Genome-Wide Association Studies. Students who participates that course are encouraged to combine it with the Julia course. The dates of both courses were planned such that students have the opportunity to participate both courses’ on-site sessions at Uppsala, from 16-18th February. The students are expected to participate in an open genomic-prediction tournament as the final assignment.</p>
-<section id="schedule" class="level1">
-<h1>Schedule</h1>
-<table class="table-striped table-hover caption-top table">
-<thead>
-<tr class="header">
-<th>Date</th>
-<th>Format</th>
-<th>Duration</th>
-<th>Topic</th>
-<th>Instructor(s)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>10 February</td>
-<td>Online</td>
-<td>2 hours</td>
-<td>General introduction to scientific computing: hardware, data types, data structures, algorithms</td>
-<td>Viktor Milkevych</td>
-</tr>
-<tr class="even">
-<td>17 February</td>
-<td>Uppsala</td>
-<td>4 hours</td>
-<td>General introduction to Julia and differences from other languages. <a href="(course_content/julia_exercises.qmd)">exercises</a></td>
-<td>Bjarke G. Poulsen, Emre Karaman</td>
-</tr>
-<tr class="odd">
-<td>18 February</td>
-<td>Uppsala</td>
-<td>2,5 hours</td>
-<td>Linear mixed model examples using matrix algebra in Julia <a href="course_content/18022026_Combined.pdf" target="_blank">View the PDF</a></td>
-<td>Bjarke G. Poulsen, Emre Karaman</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>Uppsala</td>
-<td>30 min</td>
-<td>Introduction to assignment and <a href="../../../posts/future_events/20260220_tournament/index.html">genomic prediction tournament</a></td>
-<td>Bjarke G. Poulsen, Emre Karaman</td>
-</tr>
-<tr class="odd">
-<td>24 February</td>
-<td>Online</td>
-<td>2 hours</td>
-<td>Evaluation of students’ codes/scripts</td>
-<td>Bjarke G. Poulsen, Emre Karaman</td>
-</tr>
-<tr class="even">
-<td>25 February</td>
-<td>Online</td>
-<td>2 hours</td>
-<td>Julia for genomic research (tools for data simulation and analysis)</td>
-<td>Xijiang Yu, Bjarke G. Poulsen, Emre Karaman</td>
-</tr>
-</tbody>
-</table>
-<p>This course is organized by the NADAS network. If you wish to participate, send an email to <strong>emre@qgg.au.dk</strong> by the 20th of January 2026.</p>
-<br>
-<center>
-<p><a href=""><img src="julia.png" class="class img-fluid" style="width:60.0%"></a></p>
 
-
-</center></section>
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
