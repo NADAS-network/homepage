@@ -1,6 +1,6 @@
 ---
 title: "Scientific computing using Julia language"
-description: ""
+description: " "
 author: "Amrei"
 date: "01-16-2026"
 categories:
