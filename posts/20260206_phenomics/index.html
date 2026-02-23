@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="The Nordic Network of Agricultural Data Scientists">
+<meta name="author" content="Amrei">
+<meta name="dcterms.date" content="2026-02-02">
 
-<title>Welcome to NADAS – NADAS</title>
+<title>Innovative phenotyping systems to advance selective breeding in black soldier fly – NADAS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,67 +70,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-future_events .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-future_events'] = new List('listing-future_events', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -141,11 +82,11 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
-    <img src="./images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/Logo_NADAS.png" alt="" class="navbar-logo light-content">
+    <img src="../../images/Logo_NADAS.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">NADAS</span>
     </a>
   </div>
@@ -156,7 +97,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -165,21 +106,21 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about-us">    
         <li>
-    <a class="dropdown-item" href="./funding.html">
+    <a class="dropdown-item" href="../../funding.html">
  <span class="dropdown-text">Funding body</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./institutions.html">
+    <a class="dropdown-item" href="../../institutions.html">
  <span class="dropdown-text">Participating institutions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html">
+    <a class="dropdown-item" href="../../team.html">
  <span class="dropdown-text">Team members</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Archive</span></a>
   </li>  
 </ul>
@@ -207,178 +148,69 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Welcome to NADAS</h1>
-                  <div>
-        <div class="description">
-          <p>The Nordic Network of Agricultural Data Scientists</p>
-        </div>
-      </div>
-                </div>
+    <div class="quarto-title column-body">
+      <h1 class="title">Innovative phenotyping systems to advance selective breeding in black soldier fly</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">discussion</div>
+                <div class="quarto-category">seminar</div>
+              </div>
+                  </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Amrei </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">February 2, 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#our-aim" id="toc-our-aim" class="nav-link active" data-scroll-target="#our-aim">Our aim</a></li>
-  <li><a href="#our-funding" id="toc-our-funding" class="nav-link" data-scroll-target="#our-funding">Our funding</a></li>
-  <li><a href="#current-and-future-news-and-events" id="toc-current-and-future-news-and-events" class="nav-link" data-scroll-target="#current-and-future-news-and-events">Current and future news and events</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<br><br>
+<div class="course-meta-block quarto-title-meta">
+<div class="quarto-title-meta-heading">
+<p>Seminar date:</p>
+</div>
+<div class="quarto-title-meta-contents">
+<p>Feb 6th, 2026</p>
+</div>
+</div>
+<p>We invite you to a seminar with Assistant Professor Grum Gebreyesus from Aarhus University, Denmark, on phenomics in insect breeding.</p>
+<p>In his talk, “Innovative phenotyping systems to advance selective breeding in black soldier fly,” he will discuss the development and application of phenotyping approaches to support data-driven selection in black soldier fly.</p>
+<p>We will see how robust, scalable phenotypic data can strengthen breeding programs and advance emerging insect production systems.</p>
+<p>Welcome to this exciting online seminar!</p>
+<br>
 <center>
-<img src="images/Logo_NADAS.png" id="id" class="class img-fluid" style="width:25.0%">
-</center>
-<p><br><br></p>
-<section id="our-aim" class="level1">
-<h1>Our aim</h1>
-<p>Technological advances allowing for cost-effective and high-throughput genetic characterization, and for automated large-scale phenotyping, has brought animal and plant breeding into the so called “big-data” era. Big-data requires special processing pipelines and sophisticated statistical methods and analysis tools than those that have been traditionally employed.</p>
-<p>A number of independent projects at the Nordic institutes address these needs individually, but a collective effort at the region-level can help to increase the overall competitiveness, and to ensure the sustainability of Nordic agriculture. These efforts should include also a proper training of agricultural data scientists, which is becoming more evident in today’s data-driven agricultural systems.</p>
-<p>We aim at:</p>
-<ol type="i">
-<li><p>exchanging ideas and discussing state-of-the-art approaches for boosting data-driven breeding and farm management in the Nordic region,</p></li>
-<li><p>promoting sharing of data and analysis tools within the region, and</p></li>
-<li><p>providing necessary training to young agricultural data scientist to ensure they possess the knowledge needed for securing long-term competitiveness of Nordic farming.</p></li>
-</ol>
-<p>Our network brings together the researchers and PhD students from Aarhus University, Agricultural University of Iceland, Norwegian University of Life Sciences, Swedish University of Agricultural Sciences and Natural Resources Institute of Finland, as well as industry stakeholders in the region.</p>
-</section>
-<section id="our-funding" class="level1">
-<h1>Our funding</h1>
-<p>We are funded by the <a href="https://nordicagriresearch.org/welcome-to-nkj/">The Nordic Joint Committee for Agricultural and Food Research</a>.</p>
-<center>
-<p><img src="images/NKJ-logga-m-text.jpg" id="id" class="class img-fluid" style="width:25.0%"></p>
-<p><br><br></p>
-</center></section>
-<section id="current-and-future-news-and-events" class="level1">
-<h1>Current and future news and events</h1>
-<p><br></p>
-<div id="listing-future_events" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNzdGF0aXN0aWNzJTJDYnJlZWRpbmc=" data-listing-date-sort="1764201600000" data-listing-file-modified-sort="1771840689399" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="427">
-<div class="thumbnail"><a href="./posts/future_events/20251120_course_NADAS_stats/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/future_events/20251120_course_NADAS_stats/NADAS_logo.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title" data-anchor-id="current-and-future-news-and-events">
-<a href="./posts/future_events/20251120_course_NADAS_stats/index.html" class="no-external">Statistical methods in animal breeding</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/future_events/20251120_course_NADAS_stats/index.html" class="no-external">
-<p>With a focus on Genomic Selection and Genome-Wide Association Studies</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20251120_course_NADAS_stats/index.html" class="no-external">
-<div class="listing-date">
-Nov 27, 2025
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bWVldGluZw==" data-listing-date-sort="1765843200000" data-listing-file-modified-sort="1771840689398" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
-<div class="thumbnail"><a href="./posts/future_events/20250216_Uppsala_meeting/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/future_events/20250216_Uppsala_meeting/2048px-Uppsala_domkyrka.jpg" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/future_events/20250216_Uppsala_meeting/index.html" class="no-external">NADAS meeting in Uppsala</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/future_events/20250216_Uppsala_meeting/index.html" class="no-external">
-<p>Feb 16th-18th, 2026</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20250216_Uppsala_meeting/index.html" class="no-external">
-<div class="listing-date">
-Dec 16, 2025
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="Y291cnNlJTJDdHJhaW5pbmclMkNxdWFudGl0YXRpdmUlMjBnZW5ldGljcyUyQ2p1bGlh" data-listing-date-sort="1768521600000" data-listing-file-modified-sort="1771840689400" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="719">
-<div class="thumbnail"><a href="./posts/future_events/20260210_course_julia/index.html" class="no-external">
-
-<img loading="lazy" src="./posts/future_events/20260210_course_julia/julia.png" class="thumbnail-image">
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/future_events/20260210_course_julia/index.html" class="no-external">Scientific computing using Julia language</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/future_events/20260210_course_julia/index.html" class="no-external">
-Course dates:
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20260210_course_julia/index.html" class="no-external">
-<div class="listing-date">
-Jan 16, 2026
-</div>
-<div class="listing-author">
-Amrei
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1771840689400" data-listing-reading-time-sort="4" data-listing-word-count-sort="733">
-<div class="thumbnail"><a href="./posts/future_events/20260210_course_julia/exercises.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/future_events/20260210_course_julia/exercises.html" class="no-external">Exercises for the <em>Scientific computing using Julia language</em> course</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/future_events/20260210_course_julia/exercises.html" class="no-external">
-For these exercises I am also expecting that you are working in the REPL.
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/future_events/20260210_course_julia/exercises.html" class="no-external">
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+<p><a href=""><img src="black_soldier_fly.jpg" class="class img-fluid" style="width:60.0%"></a></p>
+<p>Picture thanks to <a href="https://www.pexels.com/photo/extremely-magnification-close-up-face-of-a-black-soldier-fly-meet-the-fly-that-could-help-save-the-planet-14591396/">Oktavianus Mulyadi</a>.</p>
 
 
 
-</section>
-
-</main> <!-- /main -->
+</center></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
