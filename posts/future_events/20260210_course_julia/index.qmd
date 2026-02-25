@@ -35,7 +35,7 @@ This course targets MSc and PhD students who work in quantitative genetics, and 
 | 18 February     | Uppsala | 2,5 hours  | Linear mixed model examples using matrix algebra in Julia  [View the PDF](course_content/18022026_Combined.pdf){target="_blank"}                                                | Bjarke G. Poulsen, Emre Karaman                |
 |   | Uppsala| 30 min | Introduction to assignment and [genomic prediction tournament](../20260220_tournament/index.qmd)                                                  | Bjarke G. Poulsen, Emre Karaman                |
 | 24 February     | Online  | 2 hours  | Evaluation of students’ codes/scripts                                                                       | Bjarke G. Poulsen, Emre Karaman                |
-| 25 February     | Online  | 2 hours  | Julia for genomic research (tools for data simulation and analysis)                                         | Xijiang Yu, Bjarke G. Poulsen, Emre Karaman    |
+| 25 February     | Online  | 2 hours  | Julia for genomic research (tools for data simulation and analysis)  [Link to material](https://xijiang.org/podcast/nadas/)                                       | Xijiang Yu, Bjarke G. Poulsen, Emre Karaman    |
 
 :  {.striped .hover}
 
